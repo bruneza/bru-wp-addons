@@ -3,7 +3,7 @@
  * Plugin Name: BRUNEZA WP Addons
  * Plugin URI: https://bruneza.online/
  * Description: Additional Features to make the website more Amazing with less plugins.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author: Bruce Mugwaneza
  * Author URI: https://bruneza.online/
  * Text Domain: bruneza
@@ -23,7 +23,7 @@ function BRU_Addon() {
 	// Define COnstanst
 	
 
-define( 'VERSION', '1.0.0' );
+define( 'VERSION', '1.0.1' );
 define( 'MINIMUM_PHP_VERSION', '7.4' );
 define( 'MINIMUM_ELEMENTOR_VERSION', '4.0' );
 define( 'BRU_DIR', untrailingslashit( plugin_dir_path( __FILE__ ) ) );

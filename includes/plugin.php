@@ -11,7 +11,7 @@ if (!defined('ABSPATH')) {
  *
  * The main class that initiates and runs the addon.
  *
- * @since 1.0.0
+ * @since 1.0.1
  */
 final class Features
 {
@@ -19,7 +19,7 @@ final class Features
 	/**
 	 * Instance
 	 *
-	 * @since 1.0.0
+	 * @since 1.0.1
 	 * @access private
 	 * @static
 	 * @var \Elementor_Test_Addon\Plugin The single instance of the class.
@@ -31,7 +31,7 @@ final class Features
 	 *
 	 * Ensures only one instance of the class is loaded or can be loaded.
 	 *
-	 * @since 1.0.0
+	 * @since 1.0.1
 	 * @access public
 	 * @static
 	 * @return \Elementor_Test_Addon\Plugin An instance of the class.
@@ -51,7 +51,7 @@ final class Features
 	 * Perform some compatibility checks to make sure basic requirements are meet.
 	 * If all compatibility checks pass, initialize the functionality.
 	 *
-	 * @since 1.0.0
+	 * @since 1.0.1
 	 * @access public
 	 */
 	public function __construct()
@@ -81,7 +81,7 @@ final class Features
 	 *
 	 * Checks whether the site meets the addon requirement.
 	 *
-	 * @since 1.0.0
+	 * @since 1.0.1
 	 * @access public
 	 */
 	public function is_compatible()
@@ -113,7 +113,7 @@ final class Features
 	 *
 	 * Warning when the site doesn't have Elementor installed or activated.
 	 *
-	 * @since 1.0.0
+	 * @since 1.0.1
 	 * @access public
 	 */
 	public function admin_notice_missing_main_plugin()
@@ -136,7 +136,7 @@ final class Features
 	 *
 	 * Warning when the site doesn't have a minimum required Elementor version.
 	 *
-	 * @since 1.0.0
+	 * @since 1.0.1
 	 * @access public
 	 */
 	public function admin_notice_minimum_elementor_version()
@@ -160,7 +160,7 @@ final class Features
 	 *
 	 * Warning when the site doesn't have a minimum required PHP version.
 	 *
-	 * @since 1.0.0
+	 * @since 1.0.1
 	 * @access public
 	 */
 	public function admin_notice_minimum_php_version()
@@ -186,7 +186,7 @@ final class Features
 	 *
 	 * Fired by `elementor/init` action hook.
 	 *
-	 * @since 1.0.0
+	 * @since 1.0.1
 	 * @access public
 	 */
 	public function init()
@@ -242,7 +242,7 @@ final class Features
 	 *
 	 * Include control file and register control class.
 	 *
-	 * @since 1.0.0
+	 * @since 1.0.1
 	 * @param \Elementor\Controls_Manager $controls_manager Elementor controls manager.
 	 * @return void
 	 */
