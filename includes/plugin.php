@@ -70,7 +70,7 @@ final class Features
 		// Include Custom Post Type
 		// register_activation_hook( __FILE__, [$this, 'cpt_activate'] );
 
-		require_once BRU_DIR . '/includes/CPT/register-init-cpt-class.php';
+		require_once BRU_DIR . '/includes/CPT/register-cpt-class.php';
 
 		\BRU_Addons\CPT\register_Cpts::instance();
 
