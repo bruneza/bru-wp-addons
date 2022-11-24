@@ -27,7 +27,7 @@ function BRU_Addon()
 
 	define('VERSION', '1.0.2');
 	define('MINIMUM_PHP_VERSION', '7.4');
-	define('MINIMUM_ELEMENTOR_VERSION', '4.0');
+	define('MINIMUM_ELEMENTOR_VERSION', '3.6');
 	define('BRU_DIR', untrailingslashit(plugin_dir_path(__FILE__)));
 	define('BRU_FILE', __FILE__);
 	define('BRU_URL', untrailingslashit(plugins_url(basename(plugin_dir_path(__FILE__)), basename(__FILE__))));
