@@ -56,7 +56,7 @@ function BRU_Addon()
 	$updater = new \BRU_Addons\Updater(__FILE__); // instantiate our class
 	$updater->set_username('bruneza'); // set username
 	$updater->set_repository('bru-wp-addons'); // set repo
-	$updater->authorize('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'); // set Tokken
+	$updater->authorize('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'); // set Tokken
 	$updater->initialize(); // initialize the updater
 
 }
