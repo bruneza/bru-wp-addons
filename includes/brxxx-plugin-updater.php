@@ -90,7 +90,7 @@ class Updater
         $response = current($response);
       }
 
-      if ($this->authorize_token) {
+      if ($this->authorize_token && is_array($response)) {
         $response['zipball_url'] = add_query_arg('access_token', $this->authorize_token, $response['zipball_url']);
       }
 
