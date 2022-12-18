@@ -110,7 +110,12 @@ class Updater
     if (property_exists($transient, 'checked')) {
       if ($checked = $transient->checked) {
         $this->get_repository_info();
-
+        // print_r('<br>----<br>');
+        // print_r($checked);
+        // print_r('<br>----<br>');
+        // print_r($this->github_response['tag_name']);
+        // print_r('<br>----<br>');
+        if(isset($checked[$this->basename])){
         $out_of_date = version_compare($this->github_response['tag_name'], $checked[$this->basename], 'gt');
 
         if ($out_of_date) {
@@ -126,6 +131,7 @@ class Updater
 
           $transient->response[$this->basename] = (object) $plugin;
         }
+      }
       }
     }
 
