@@ -4,7 +4,7 @@
  * Plugin Name: BRUNEZA WP Addons
  * Plugin URI: https://bruneza.online/
  * Description: Additional Features to make the website more Amazing with less plugins.
- * Version:     1.3.1
+ * Version:     1.3.2
  * Author: Bruce Mugwaneza
  * Author URI: https://bruneza.online/
  * Text Domain: bruneza
@@ -22,7 +22,7 @@ if (!defined('ABSPATH')) {
 function BRU_Addon()
 {
 
-	$version = '1.3.1';
+	$version = '1.3.2';
 
 	// Define COnstanst
 	if ( is_admin() ) {
